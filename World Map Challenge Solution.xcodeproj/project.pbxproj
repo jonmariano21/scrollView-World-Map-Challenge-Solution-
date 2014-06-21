@@ -21,6 +21,7 @@
 		7E046E3419550BA700A2777E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1619550BA700A2777E /* UIKit.framework */; };
 		7E046E3C19550BA700A2777E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E3A19550BA700A2777E /* InfoPlist.strings */; };
 		7E046E3E19550BA700A2777E /* World_Map_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E3D19550BA700A2777E /* World_Map_Challenge_SolutionTests.m */; };
+		7E046E4819550CE500A2777E /* worldMap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E4719550CE500A2777E /* worldMap.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7E046E3919550BA700A2777E /* World Map Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Map Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7E046E3B19550BA700A2777E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E046E3D19550BA700A2777E /* World_Map_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Map_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7E046E4719550CE500A2777E /* worldMap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldMap.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		7E046E1919550BA700A2777E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E046E4719550CE500A2777E /* worldMap.jpeg */,
 				7E046E1A19550BA700A2777E /* World Map Challenge Solution-Info.plist */,
 				7E046E1B19550BA700A2777E /* InfoPlist.strings */,
 				7E046E1E19550BA700A2777E /* main.m */,
@@ -231,6 +234,7 @@
 				7E046E2B19550BA700A2777E /* Images.xcassets in Resources */,
 				7E046E1D19550BA700A2777E /* InfoPlist.strings in Resources */,
 				7E046E2619550BA700A2777E /* Main.storyboard in Resources */,
+				7E046E4819550CE500A2777E /* worldMap.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
