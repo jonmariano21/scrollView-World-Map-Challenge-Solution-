@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E046E1319550BA700A2777E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1219550BA700A2777E /* Foundation.framework */; };
+		7E046E1519550BA700A2777E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1419550BA700A2777E /* CoreGraphics.framework */; };
+		7E046E1719550BA700A2777E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1619550BA700A2777E /* UIKit.framework */; };
+		7E046E1D19550BA700A2777E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E1B19550BA700A2777E /* InfoPlist.strings */; };
+		7E046E1F19550BA700A2777E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E1E19550BA700A2777E /* main.m */; };
+		7E046E2319550BA700A2777E /* JMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E2219550BA700A2777E /* JMAppDelegate.m */; };
+		7E046E2619550BA700A2777E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E2419550BA700A2777E /* Main.storyboard */; };
+		7E046E2919550BA700A2777E /* JMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E2819550BA700A2777E /* JMViewController.m */; };
+		7E046E2B19550BA700A2777E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E2A19550BA700A2777E /* Images.xcassets */; };
+		7E046E3219550BA700A2777E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E3119550BA700A2777E /* XCTest.framework */; };
+		7E046E3319550BA700A2777E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1219550BA700A2777E /* Foundation.framework */; };
+		7E046E3419550BA700A2777E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E046E1619550BA700A2777E /* UIKit.framework */; };
+		7E046E3C19550BA700A2777E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E046E3A19550BA700A2777E /* InfoPlist.strings */; };
+		7E046E3E19550BA700A2777E /* World_Map_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E046E3D19550BA700A2777E /* World_Map_Challenge_SolutionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E046E3519550BA700A2777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E046E0719550BA700A2777E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E046E0E19550BA700A2777E;
+			remoteInfo = "World Map Challenge Solution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E046E0F19550BA700A2777E /* World Map Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Map Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E046E1219550BA700A2777E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E046E1419550BA700A2777E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E046E1619550BA700A2777E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E046E1A19550BA700A2777E /* World Map Challenge Solution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Map Challenge Solution-Info.plist"; sourceTree = "<group>"; };
+		7E046E1C19550BA700A2777E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E046E1E19550BA700A2777E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E046E2019550BA700A2777E /* World Map Challenge Solution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Map Challenge Solution-Prefix.pch"; sourceTree = "<group>"; };
+		7E046E2119550BA700A2777E /* JMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppDelegate.h; sourceTree = "<group>"; };
+		7E046E2219550BA700A2777E /* JMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppDelegate.m; sourceTree = "<group>"; };
+		7E046E2519550BA700A2777E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E046E2719550BA700A2777E /* JMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewController.h; sourceTree = "<group>"; };
+		7E046E2819550BA700A2777E /* JMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewController.m; sourceTree = "<group>"; };
+		7E046E2A19550BA700A2777E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E046E3019550BA700A2777E /* World Map Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Map Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E046E3119550BA700A2777E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E046E3919550BA700A2777E /* World Map Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Map Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
+		7E046E3B19550BA700A2777E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E046E3D19550BA700A2777E /* World_Map_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_Map_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E046E0C19550BA700A2777E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E1519550BA700A2777E /* CoreGraphics.framework in Frameworks */,
+				7E046E1719550BA700A2777E /* UIKit.framework in Frameworks */,
+				7E046E1319550BA700A2777E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E046E2D19550BA700A2777E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E3219550BA700A2777E /* XCTest.framework in Frameworks */,
+				7E046E3419550BA700A2777E /* UIKit.framework in Frameworks */,
+				7E046E3319550BA700A2777E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E046E0619550BA700A2777E = {
+			isa = PBXGroup;
+			children = (
+				7E046E1819550BA700A2777E /* World Map Challenge Solution */,
+				7E046E3719550BA700A2777E /* World Map Challenge SolutionTests */,
+				7E046E1119550BA700A2777E /* Frameworks */,
+				7E046E1019550BA700A2777E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E046E1019550BA700A2777E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E0F19550BA700A2777E /* World Map Challenge Solution.app */,
+				7E046E3019550BA700A2777E /* World Map Challenge SolutionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E046E1119550BA700A2777E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E1219550BA700A2777E /* Foundation.framework */,
+				7E046E1419550BA700A2777E /* CoreGraphics.framework */,
+				7E046E1619550BA700A2777E /* UIKit.framework */,
+				7E046E3119550BA700A2777E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E046E1819550BA700A2777E /* World Map Challenge Solution */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E2119550BA700A2777E /* JMAppDelegate.h */,
+				7E046E2219550BA700A2777E /* JMAppDelegate.m */,
+				7E046E2419550BA700A2777E /* Main.storyboard */,
+				7E046E2719550BA700A2777E /* JMViewController.h */,
+				7E046E2819550BA700A2777E /* JMViewController.m */,
+				7E046E2A19550BA700A2777E /* Images.xcassets */,
+				7E046E1919550BA700A2777E /* Supporting Files */,
+			);
+			path = "World Map Challenge Solution";
+			sourceTree = "<group>";
+		};
+		7E046E1919550BA700A2777E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E1A19550BA700A2777E /* World Map Challenge Solution-Info.plist */,
+				7E046E1B19550BA700A2777E /* InfoPlist.strings */,
+				7E046E1E19550BA700A2777E /* main.m */,
+				7E046E2019550BA700A2777E /* World Map Challenge Solution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E046E3719550BA700A2777E /* World Map Challenge SolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E3D19550BA700A2777E /* World_Map_Challenge_SolutionTests.m */,
+				7E046E3819550BA700A2777E /* Supporting Files */,
+			);
+			path = "World Map Challenge SolutionTests";
+			sourceTree = "<group>";
+		};
+		7E046E3819550BA700A2777E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E046E3919550BA700A2777E /* World Map Challenge SolutionTests-Info.plist */,
+				7E046E3A19550BA700A2777E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E046E0E19550BA700A2777E /* World Map Challenge Solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E046E4119550BA700A2777E /* Build configuration list for PBXNativeTarget "World Map Challenge Solution" */;
+			buildPhases = (
+				7E046E0B19550BA700A2777E /* Sources */,
+				7E046E0C19550BA700A2777E /* Frameworks */,
+				7E046E0D19550BA700A2777E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Map Challenge Solution";
+			productName = "World Map Challenge Solution";
+			productReference = 7E046E0F19550BA700A2777E /* World Map Challenge Solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E046E2F19550BA700A2777E /* World Map Challenge SolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E046E4419550BA700A2777E /* Build configuration list for PBXNativeTarget "World Map Challenge SolutionTests" */;
+			buildPhases = (
+				7E046E2C19550BA700A2777E /* Sources */,
+				7E046E2D19550BA700A2777E /* Frameworks */,
+				7E046E2E19550BA700A2777E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E046E3619550BA700A2777E /* PBXTargetDependency */,
+			);
+			name = "World Map Challenge SolutionTests";
+			productName = "World Map Challenge SolutionTests";
+			productReference = 7E046E3019550BA700A2777E /* World Map Challenge SolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E046E0719550BA700A2777E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JM;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					7E046E2F19550BA700A2777E = {
+						TestTargetID = 7E046E0E19550BA700A2777E;
+					};
+				};
+			};
+			buildConfigurationList = 7E046E0A19550BA700A2777E /* Build configuration list for PBXProject "World Map Challenge Solution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E046E0619550BA700A2777E;
+			productRefGroup = 7E046E1019550BA700A2777E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E046E0E19550BA700A2777E /* World Map Challenge Solution */,
+				7E046E2F19550BA700A2777E /* World Map Challenge SolutionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E046E0D19550BA700A2777E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E2B19550BA700A2777E /* Images.xcassets in Resources */,
+				7E046E1D19550BA700A2777E /* InfoPlist.strings in Resources */,
+				7E046E2619550BA700A2777E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E046E2E19550BA700A2777E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E3C19550BA700A2777E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E046E0B19550BA700A2777E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E1F19550BA700A2777E /* main.m in Sources */,
+				7E046E2919550BA700A2777E /* JMViewController.m in Sources */,
+				7E046E2319550BA700A2777E /* JMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E046E2C19550BA700A2777E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E046E3E19550BA700A2777E /* World_Map_Challenge_SolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E046E3619550BA700A2777E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E046E0E19550BA700A2777E /* World Map Challenge Solution */;
+			targetProxy = 7E046E3519550BA700A2777E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E046E1B19550BA700A2777E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E046E1C19550BA700A2777E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E046E2419550BA700A2777E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E046E2519550BA700A2777E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E046E3A19550BA700A2777E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E046E3B19550BA700A2777E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E046E3F19550BA700A2777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E046E4019550BA700A2777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E046E4219550BA700A2777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge Solution/World Map Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E046E4319550BA700A2777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge Solution/World Map Challenge Solution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E046E4519550BA700A2777E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Map Challenge Solution.app/World Map Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World Map Challenge SolutionTests/World Map Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E046E4619550BA700A2777E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Map Challenge Solution.app/World Map Challenge Solution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Map Challenge Solution/World Map Challenge Solution-Prefix.pch";
+				INFOPLIST_FILE = "World Map Challenge SolutionTests/World Map Challenge SolutionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E046E0A19550BA700A2777E /* Build configuration list for PBXProject "World Map Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E046E3F19550BA700A2777E /* Debug */,
+				7E046E4019550BA700A2777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E046E4119550BA700A2777E /* Build configuration list for PBXNativeTarget "World Map Challenge Solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E046E4219550BA700A2777E /* Debug */,
+				7E046E4319550BA700A2777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E046E4419550BA700A2777E /* Build configuration list for PBXNativeTarget "World Map Challenge SolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E046E4519550BA700A2777E /* Debug */,
+				7E046E4619550BA700A2777E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E046E0719550BA700A2777E /* Project object */;
+}
